@@ -613,7 +613,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.imput_conteiner {
+.imput__conteiner {
   display: flex;
   justify-content: space-between;
 }
