@@ -12,7 +12,7 @@
         "../sass/layout/_regular.scss",
         "../sass/layout/_footer.scss",
         "../sass/layout/_portfolio.scss",
-        "../sass/utils/_modal.scss"
+        "../sass/layout/_modal.scss"
     ],
     "names": [],
     "file": "main.css"
