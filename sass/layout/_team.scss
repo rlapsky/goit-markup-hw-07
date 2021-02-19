@@ -1,0 +1,75 @@
+.team {
+    background-color: var(--white-bgc--);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    margin: 0 auto;
+    &__title {
+        color: var(--title-color-text--);
+        margin-bottom: 50px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    &__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__info {
+        background-color: var(--wite-color--);
+        width: 270px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 1px rgba(0,0,0,.14),0 2px 1px rgba(0,0,0,.2);
+        border-radius: 0px 0px 4px 4px;
+        text-align: center;
+        margin: 0 15px;
+    }
+    &__profile {
+        padding-top: 30px;
+        margin-bottom: 16px;
+    }
+    &__profile__title {
+        color: var(--title-color-text--);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    &__profile__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-top: 10px;
+    }
+}
+.icons-list {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 32px;
+    padding-bottom: 30px;
+    padding-right: 32px;
+    &__link {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: #AFB1B8;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            &:focus,
+            &:hover {
+            background-color: var(--accent-color--);
+            fill: var(--wite-color--);
+            outline: 0;
+        }
+    }
+}
+
